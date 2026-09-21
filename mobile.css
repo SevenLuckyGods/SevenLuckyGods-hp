@@ -12,3 +12,25 @@
 .area{padding:44px 0!important;background:var(--cream)!important;color:#17252d!important}.area-inner{padding:24px 17px!important;background:#fff!important;border:1px solid #dfcfaa!important;color:#17252d!important;box-shadow:none!important}.area-inner h2,.area-inner h3,.area-inner p{color:#17252d!important}.faq{background:#fff!important}.faq-item{border-radius:0!important;box-shadow:none!important}.company{background:#f3ecdd!important;color:#17252d!important}.company .section-title{color:#17252d!important}.company-table{background:#fff!important;color:#17252d!important;border-radius:0!important;box-shadow:none!important}.company-table dl div{grid-template-columns:1fr!important}.company-table dt{padding:10px 12px 2px!important}.company-table dd{padding:2px 12px 11px!important}.cta-section{padding:36px 0!important}.footer-grid{grid-template-columns:1fr!important}.page-top{right:15px!important;bottom:16px!important;width:48px!important;height:48px!important}
 }
 @media(max-width:380px){.hero-title{font-size:37px!important}.logo-main{font-size:14px!important}.hero-content{padding-top:42px!important}}
+
+@media(max-width:768px){
+.header:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,transparent,#c79d3f,transparent)}
+.hero{position:relative!important;background:
+radial-gradient(circle at 90% 12%,rgba(219,177,71,.16),transparent 26%),
+linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.12;background-image:linear-gradient(45deg,transparent 48%,rgba(213,175,78,.18) 49%,rgba(213,175,78,.18) 51%,transparent 52%);background-size:34px 34px}
+.hero-emblem{right:-35px!important;top:15px!important;width:205px!important;height:205px!important;opacity:.24!important;border:0!important;display:block!important}
+.emblem-orbit{position:absolute;inset:20px;border:1px solid #d6b253;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 9px rgba(214,178,83,.06)}
+.emblem-orbit:after{content:"";position:absolute;inset:11px;border:1px solid rgba(214,178,83,.55);border-radius:50%}.emblem-orbit span{font-family:var(--font-serif);font-size:76px;color:#e4c267}
+.hero-emblem>small{position:absolute;left:50%;bottom:2px;transform:translateX(-50%);font-size:6px;letter-spacing:.22em;color:#e2bd5b;white-space:nowrap}
+.emblem-cloud{position:absolute;height:18px;border-top:2px solid #d6b253;border-radius:50%}.cloud-a{width:90px;left:-10px;top:55px}.cloud-b{width:72px;right:-5px;top:122px}
+.emblem-wave{position:absolute;width:190px;height:55px;left:7px;bottom:25px;border-top:2px solid #d6b253;border-radius:50%}.emblem-wave:after{content:"";position:absolute;width:160px;height:45px;left:35px;top:11px;border-top:2px solid rgba(214,178,83,.7);border-radius:50%}
+.hero-title{position:relative}.hero-title:after{content:"";display:block;width:46px;height:2px;margin-top:15px;background:linear-gradient(90deg,#d6aa43,transparent)}
+.hero-points .point{position:relative;overflow:hidden}.hero-points .point:after{content:"";position:absolute;right:-14px;bottom:-18px;width:42px;height:42px;border:1px solid rgba(218,181,83,.18);border-radius:50%}
+.brand-band{display:block;background:#b18a32;border-top:1px solid #e0c36e;border-bottom:1px solid #715419}
+.brand-band-inner{height:48px;display:flex;align-items:center;justify-content:center;gap:13px;padding:0 12px!important;color:#071722;font-family:var(--font-serif);font-size:11px;font-weight:700;letter-spacing:.08em}.brand-band-inner i{font-size:7px;font-style:normal;color:#fff3b6}
+.reasons{position:relative!important}.reasons:before{content:"福";position:absolute;right:-18px;top:48px;font-family:var(--font-serif);font-size:150px;line-height:1;color:rgba(154,115,35,.055)}
+.reason-card{position:relative!important;overflow:hidden!important}.reason-card:after{content:"";position:absolute;right:-24px;top:-24px;width:62px;height:62px;border:1px solid rgba(164,124,40,.12);border-radius:50%}
+.col-header{position:relative!important;overflow:hidden!important}.col-header:after{content:"七福人";position:absolute;right:12px;bottom:-5px;font-family:var(--font-serif);font-size:30px;color:rgba(216,180,92,.055);letter-spacing:.08em}
+.area-inner{position:relative!important;overflow:hidden!important}.area-inner:after{content:"TOKYO · TAMA AREA";position:absolute;right:-8px;bottom:4px;font-size:8px;letter-spacing:.16em;color:rgba(151,111,29,.18)}
+}
