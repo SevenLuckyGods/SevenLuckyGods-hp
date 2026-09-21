@@ -1,26 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="七福神をイメージした和風イラスト">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
 <defs>
- <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#061724"/><stop offset="1" stop-color="#0b2636"/></linearGradient>
- <radialGradient id="gold"><stop stop-color="#f4d778"/><stop offset=".65" stop-color="#c79632"/><stop offset="1" stop-color="#805714"/></radialGradient>
- <linearGradient id="robe" x2="0" y2="1"><stop stop-color="#b9332d"/><stop offset="1" stop-color="#64151b"/></linearGradient>
- <linearGradient id="robe2" x2="0" y2="1"><stop stop-color="#d09d37"/><stop offset="1" stop-color="#77521a"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+<linearGradient id="n" x2="0" y2="1"><stop stop-color="#03131f"/><stop offset="1" stop-color="#092536"/></linearGradient>
+<radialGradient id="g"><stop stop-color="#f7df86"/><stop offset=".55" stop-color="#d3a43b"/><stop offset="1" stop-color="#8a5b13"/></radialGradient>
+<linearGradient id="r"><stop stop-color="#b83a2e"/><stop offset="1" stop-color="#67141a"/></linearGradient>
+<linearGradient id="o"><stop stop-color="#d6a33b"/><stop offset="1" stop-color="#795018"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".45"/></filter>
 </defs>
-<rect width="1200" height="720" fill="url(#bg)"/>
-<circle cx="610" cy="340" r="255" fill="none" stroke="#c99d3f" stroke-width="28" opacity=".22"/>
-<circle cx="610" cy="340" r="210" fill="none" stroke="#d9b554" stroke-width="5" opacity=".8"/>
-<path d="M825 265 1010 70 1160 265Z" fill="#d7d5c9" opacity=".92"/><path d="M1010 70 1062 125 1028 116 1000 145 973 117 950 128Z" fill="#fff"/>
-<g stroke="#c79a3d" fill="none" opacity=".45" stroke-width="4"><path d="M0 610q90-70 180 0t180 0t180 0t180 0t180 0t180 0t180 0"/><path d="M0 645q90-70 180 0t180 0t180 0t180 0t180 0t180 0"/></g>
-<g transform="translate(70 100)" stroke="#5b3b13" stroke-width="5">
-<!-- seven stylized deities -->
-<g transform="translate(0 125)"><ellipse cx="95" cy="105" rx="58" ry="62" fill="#f0c88f"/><path d="M43 100q52-115 104 0" fill="url(#gold)"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M78 137q18 13 35 0" fill="none"/><path d="M25 195q70-70 140 0v230H25Z" fill="url(#robe)"/><path d="M36 250q58 45 118 0" fill="none" stroke="#e7c467" stroke-width="8"/><ellipse cx="176" cy="330" rx="43" ry="58" fill="#c74a32"/><path d="M153 318q25-40 47 0" fill="none"/><text x="95" y="465" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">恵比寿</text></g>
-<g transform="translate(145 80)"><ellipse cx="95" cy="105" rx="58" ry="62" fill="#efc48b"/><path d="M42 93q53-105 106 0" fill="url(#gold)"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M76 138q20 16 39 0" fill="none"/><path d="M20 195q75-65 150 0v275H20Z" fill="url(#robe2)"/><path d="M145 205q85 40 60 145" fill="none" stroke="#d5b25b" stroke-width="24"/><circle cx="35" cy="330" r="35" fill="#c79532"/><text x="95" y="510" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">大黒天</text></g>
-<g transform="translate(290 115)"><ellipse cx="95" cy="105" rx="55" ry="60" fill="#eac087"/><path d="M38 95 58 30l37 30 37-30 20 65Z" fill="url(#gold)"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M78 137h34" fill="none"/><path d="M20 195q75-70 150 0v240H20Z" fill="url(#robe)"/><path d="M35 235 155 385M155 235 35 385" stroke="#e3bf61" stroke-width="8"/><path d="M176 130v290M164 150h24" stroke="#d6b34f" stroke-width="12"/><text x="95" y="475" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">毘沙門天</text></g>
-<g transform="translate(435 55)"><ellipse cx="95" cy="105" rx="54" ry="60" fill="#f0c79a"/><path d="M48 82q47-75 94 0" fill="#25201c"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M80 137q15 8 30 0" fill="none"/><path d="M20 195q75-70 150 0v300H20Z" fill="#8f1f29"/><ellipse cx="150" cy="300" rx="38" ry="78" fill="#d7b354"/><path d="M150 220v160M120 300h60" stroke="#6b4816" stroke-width="5"/><text x="95" y="535" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">弁財天</text></g>
-<g transform="translate(580 105)"><ellipse cx="95" cy="105" rx="56" ry="62" fill="#efc38b"/><path d="M44 92q51-90 102 0" fill="url(#gold)"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M78 138q18 13 35 0" fill="none"/><path d="M20 195q75-65 150 0v250H20Z" fill="url(#robe2)"/><path d="M155 150q70 120 15 280" fill="none" stroke="#d6b34f" stroke-width="9"/><text x="95" y="485" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">福禄寿</text></g>
-<g transform="translate(725 90)"><ellipse cx="95" cy="105" rx="54" ry="61" fill="#efc38b"/><path d="M53 75q42-60 84 0" fill="#d6b34f"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M82 135q14 9 28 0" fill="none"/><path d="M75 150q20 70 40 0" fill="#eee2c7"/><path d="M20 195q75-65 150 0v270H20Z" fill="#7f2424"/><path d="M172 130v330" stroke="#d6b34f" stroke-width="10"/><text x="95" y="505" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">寿老人</text></g>
-<g transform="translate(870 135)"><ellipse cx="95" cy="110" rx="66" ry="68" fill="#f1c991"/><circle cx="75" cy="108" r="5"/><circle cx="114" cy="108" r="5"/><path d="M70 140q25 25 50 0" fill="none"/><path d="M15 205q80-70 160 0v215H15Z" fill="url(#robe2)"/><ellipse cx="95" cy="280" rx="68" ry="58" fill="#efc991"/><path d="M158 190q85 70 45 180" fill="none" stroke="#8d5d22" stroke-width="35"/><text x="95" y="460" text-anchor="middle" fill="#efd47b" stroke="none" font-size="28">布袋尊</text></g>
+<rect width="1200" height="760" fill="url(#n)"/>
+<circle cx="620" cy="310" r="245" fill="url(#g)" opacity=".92"/><circle cx="620" cy="310" r="205" fill="#061b28" opacity=".3"/>
+<path d="M865 305 1035 105 1180 305Z" fill="#dddcd2"/><path d="M1035 105l58 68-37-15-23 31-27-29-34 17z" fill="#fff"/>
+<g fill="none" stroke="#d0a13b" stroke-width="10" opacity=".7"><path d="M0 120q85-85 165-20M55 125q40-120 135-100M110 125q85-90 160-15"/><path d="M930 70q80-55 160 10M970 105q90-50 180 15"/></g>
+<g stroke="#d0a13b" fill="none" opacity=".35" stroke-width="5"><path d="M0 650q85-65 170 0t170 0t170 0t170 0t170 0t170 0t170 0"/><path d="M0 690q85-65 170 0t170 0t170 0t170 0t170 0t170 0"/></g>
+<g filter="url(#sh)" stroke="#51310e" stroke-width="4">
+<!-- ebisu -->
+<g transform="translate(45 255)"><circle cx="92" cy="92" r="53" fill="#f1c58d"/><path d="M45 74q47-78 94 0" fill="#152434"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M75 118q18 16 36 0" fill="none"/><path d="M20 160q72-55 144 0v250H20z" fill="url(#r)"/><path d="M145 210q55 45 25 115" fill="none" stroke="#e4bf5b" stroke-width="13"/><ellipse cx="157" cy="310" rx="44" ry="29" fill="#c64c31"/><path d="M157 282v55M132 310h50" stroke="#f0d67b" stroke-width="4"/></g>
+<!-- daikoku -->
+<g transform="translate(185 205)"><circle cx="92" cy="92" r="55" fill="#f0c48a"/><path d="M42 73q50-88 100 0" fill="#171f28"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M72 118q21 20 42 0" fill="none"/><path d="M15 160q77-60 154 0v300H15z" fill="url(#o)"/><path d="M28 215q65 38 128 0" stroke="#efd06b" stroke-width="9" fill="none"/><path d="M142 168q70 20 72 100" fill="none" stroke="#cda144" stroke-width="26"/><path d="M22 245h70" stroke="#f0d16a" stroke-width="13"/></g>
+<!-- bishamonten -->
+<g transform="translate(330 245)"><circle cx="92" cy="92" r="51" fill="#e9bc82"/><path d="M45 77 59 25l33 27 33-27 14 52z" fill="url(#g)"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M75 120h35" fill="none"/><path d="M14 160q78-58 156 0v250H14z" fill="url(#r)"/><path d="m32 210 120 145m0-145L32 355" stroke="#e7c25e" stroke-width="8"/><path d="M172 105v300M158 130h28" stroke="#e0bb56" stroke-width="11"/></g>
+<!-- benzaiten -->
+<g transform="translate(475 180)"><circle cx="92" cy="92" r="52" fill="#f2c99d"/><path d="M45 75q47-75 94 0" fill="#171c23"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M79 119q14 8 28 0" fill="none"/><path d="M14 160q78-60 156 0v330H14z" fill="#8e2029"/><ellipse cx="145" cy="290" rx="35" ry="82" fill="#d7ad4c"/><path d="M145 210v160M115 290h60" stroke="#68450f" stroke-width="5"/></g>
+<!-- fukurokuju -->
+<g transform="translate(620 235)"><ellipse cx="92" cy="83" rx="50" ry="70" fill="#efc38b"/><path d="M51 60q41-55 82 0" fill="url(#g)"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M75 119q18 13 36 0" fill="none"/><path d="M14 160q78-58 156 0v265H14z" fill="url(#o)"/><path d="M70 135q22 72 44 0" fill="#f1e2c5" stroke="none"/></g>
+<!-- jurojin -->
+<g transform="translate(765 220)"><ellipse cx="92" cy="86" rx="50" ry="66" fill="#efc38b"/><path d="M50 60q42-52 84 0" fill="#c99a34"/><circle cx="75" cy="93" r="5"/><circle cx="108" cy="93" r="5"/><path d="M78 119q15 10 30 0" fill="none"/><path d="M72 136q20 82 40 0" fill="#f0e3c8" stroke="none"/><path d="M14 160q78-58 156 0v280H14z" fill="url(#r)"/><path d="M170 105v330" stroke="#d7af4d" stroke-width="10"/></g>
+<!-- hotei -->
+<g transform="translate(910 270)"><circle cx="92" cy="92" r="61" fill="#f2c991"/><circle cx="73" cy="92" r="5"/><circle cx="111" cy="92" r="5"/><path d="M66 119q27 25 54 0" fill="none"/><path d="M8 160q84-62 168 0v235H8z" fill="url(#o)"/><ellipse cx="92" cy="250" rx="70" ry="58" fill="#f0c68e"/><path d="M157 168q86 68 48 180" fill="none" stroke="#8e5e22" stroke-width="32"/></g>
 </g>
-<path d="M55 120q70-110 150-35q-60-10-80 80q-20-65-70-45M120 90q40-65 75-15" stroke="#c99d3f" stroke-width="9" fill="none" opacity=".7"/>
-<text x="600" y="680" text-anchor="middle" fill="#e5c66b" font-family="serif" font-size="28" letter-spacing="8">七つの福を、次のご縁へ。</text>
+<g font-family="serif" fill="#f0d270" font-size="22" text-anchor="middle"><text x="137" y="720">恵比寿</text><text x="277" y="720">大黒天</text><text x="422" y="720">毘沙門天</text><text x="567" y="720">弁財天</text><text x="712" y="720">福禄寿</text><text x="857" y="720">寿老人</text><text x="1002" y="720">布袋尊</text></g>
 </svg>
