@@ -889,3 +889,92 @@ body{background:var(--paper)}
   .shichifukujin-art{right:auto;height:215px}
   .hero-content{padding:42px 20px 42px}
 }
+
+
+/* ===== MOBILE-FIRST REBUILD v3 ===== */
+@media (max-width: 768px) {
+  html,body{width:100%;max-width:100%;overflow-x:hidden}
+  .container{width:100%;max-width:none;padding-left:18px;padding-right:18px}
+  .top-bar{padding:0;background:#05090c}
+  .top-bar-inner{min-height:76px;padding-top:12px;padding-bottom:12px;display:flex;justify-content:center}
+  .top-bar-text{display:none!important}
+  .top-bar-contact{width:100%;display:block}
+  .phone-block{width:100%;display:flex;flex-direction:column;align-items:center;gap:2px}
+  .phone-label{font-size:.78rem;line-height:1.35;color:rgba(255,255,255,.72)}
+  .phone-number{font-size:1.55rem;line-height:1.25;letter-spacing:.035em}
+  .phone-number .icon-phone{width:19px;height:19px}
+  .header{position:relative;top:auto}
+  .header-inner{height:78px;padding-left:18px;padding-right:18px}
+  .logo{gap:10px;min-width:0}
+  .logo-mark{width:48px;height:48px;flex:0 0 48px}
+  .logo-fuku{font-size:1.45rem}
+  .logo-text{min-width:0}
+  .logo-sub{font-size:.66rem}
+  .logo-main{font-size:1.03rem;white-space:nowrap}
+  .logo-tag{font-size:.61rem;white-space:nowrap}
+  .menu-toggle{width:42px;height:42px;flex:0 0 42px}
+  .nav.open{top:78px;z-index:1000;padding:8px 20px 18px}
+  .nav.open a{font-size:.92rem}
+
+  .hero{min-height:0;background:linear-gradient(145deg,#fbf5e7 0%,#f2ddb0 64%,#d7ad53 100%)}
+  .hero-bg:before{display:none}
+  .hero-content{display:flex!important;flex-direction:column!important;min-height:0!important;padding:0 18px 38px!important}
+  .shichifukujin-art{
+    position:relative!important;inset:auto!important;transform:none!important;
+    order:0;width:calc(100% + 36px)!important;height:190px!important;
+    margin:0 -18px 24px!important;opacity:1!important;overflow:hidden!important;
+    display:flex!important;justify-content:center!important;align-items:center!important;
+  }
+  .sun-ring{width:190px!important;height:190px!important;border-width:18px!important;opacity:.52!important}
+  .god-row{gap:2px!important;transform:translateY(3px)}
+  .god-row span{width:38px!important;height:82px!important;font-size:1rem!important}
+  .god-row span:nth-child(2),.god-row span:nth-child(6){height:96px!important}
+  .god-row span:nth-child(4){height:108px!important}
+  .shichifukujin-art p{position:absolute!important;bottom:9px!important;margin:0!important;font-size:.73rem!important;padding:6px 12px!important;white-space:nowrap}
+  .hero-left{order:1;width:100%!important;max-width:none!important}
+  .hero-title{font-size:clamp(2.55rem,12.5vw,3.6rem)!important;line-height:1.18!important;letter-spacing:.01em!important;margin:0 0 18px!important;max-width:100%!important}
+  .hero-lead{font-size:.96rem!important;line-height:1.9!important;margin:0 0 24px!important;max-width:100%!important}
+  .hero-lead br{display:none!important}
+  .hero-points{display:grid!important;grid-template-columns:1fr!important;gap:9px!important;width:100%!important}
+  .point{width:100%!important;min-height:72px!important;padding:13px 16px!important}
+  .point-icon{width:34px!important;height:34px!important;flex:0 0 34px!important}
+  .point strong{font-size:.78rem!important}.point span{font-size:1rem!important}
+  .hero-right{display:none!important}
+
+  .section{padding:52px 0}
+  .section-header{margin-bottom:30px}
+  .section-title{font-size:1.35rem;line-height:1.5;text-align:center}
+  .section-ornament{display:none}
+  .reasons-grid{grid-template-columns:1fr!important;gap:12px!important}
+  .reason-card{padding:24px 18px!important}
+  .two-col{display:block!important}
+  .col-flow,.col-items{width:100%!important;margin:0 0 22px!important;border-radius:6px!important}
+  .col-header{padding:15px 16px!important}
+  .flow-item{grid-template-columns:38px 1fr 30px!important;padding:16px 14px!important;gap:10px!important}
+  .flow-num{width:34px!important;height:34px!important}
+  .flow-content h3{font-size:.96rem!important}.flow-content p{font-size:.8rem!important;line-height:1.6}
+  .items-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:14px!important}
+  .item-card{min-width:0!important;padding:15px 6px!important}
+  .item-card span{font-size:.76rem!important;overflow-wrap:anywhere}
+  .area-inner{padding:26px 18px!important;gap:22px!important}
+  .badge-circle{width:104px!important;height:104px!important}
+  .faq-item summary{padding:16px 15px!important;font-size:.9rem!important;gap:10px}
+  .faq-item p{padding:0 15px 17px!important;font-size:.86rem!important}
+  .cta-section{padding:50px 18px!important}
+  .cta-section:before{font-size:7rem;left:2%}
+  .cta-phone{font-size:clamp(1.65rem,8vw,2.2rem)!important}
+  .company-table{width:100%!important}
+  .company-table dl div{grid-template-columns:1fr!important}
+  .company-table dt{padding:12px 14px 3px!important}
+  .company-table dd{padding:3px 14px 13px!important;overflow-wrap:anywhere}
+  .footer{padding-top:38px!important}
+  .footer-grid{grid-template-columns:1fr!important;gap:22px!important}
+  .page-top{width:44px;height:44px;right:16px;bottom:16px}
+}
+@media (max-width: 380px){
+  .container{padding-left:14px;padding-right:14px}
+  .hero-content{padding-left:14px!important;padding-right:14px!important}
+  .shichifukujin-art{width:calc(100% + 28px)!important;margin-left:-14px!important;margin-right:-14px!important}
+  .logo-main{font-size:.9rem}.logo-tag{font-size:.55rem}
+  .hero-title{font-size:2.45rem!important}
+}
