@@ -14,3 +14,19 @@
 .area{background:linear-gradient(180deg,#081d2a,#061724)!important;color:#fff!important}.area-inner{padding:24px 16px!important;background:#0b2736!important;border:1px solid rgba(211,173,77,.45)!important;color:#fff!important}.area-inner h2,.area-inner h3,.area-inner p{color:#fff!important}.faq{background:#f7f0df!important}.company{background:#071a29!important;color:#fff!important}.company .section-title{color:#fff!important}.company-table{background:#fff!important;color:#1c2830!important;border-radius:7px!important;overflow:hidden!important}.company-table dl div{grid-template-columns:1fr!important}.company-table dt{padding:10px 12px 2px!important}.company-table dd{padding:2px 12px 11px!important}.footer-grid{grid-template-columns:1fr!important}.cta-section{padding:38px 0!important}.page-top{right:16px!important;bottom:18px!important}
 }
 @media(max-width:390px){.hero-title{font-size:42px!important}.logo-main{font-size:15px!important}}
+
+/* MOBILE VISUAL REFINEMENT v10 */
+@media(max-width:768px){
+.header-inner{height:76px!important}.logo-mark{width:46px!important;height:46px!important;flex-basis:46px!important}.logo-main{font-size:16px!important}
+.hero-content{padding:0 20px 32px!important}
+.hero-art{height:178px!important;margin:0 -20px 25px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;background:radial-gradient(circle at 50% 42%,rgba(215,172,64,.16),transparent 36%),linear-gradient(180deg,#071d2b,#04141f)!important;border-bottom:1px solid rgba(199,153,48,.34)!important}
+.hero-art-sun,.hero-art-copy,.hero-art-wave{display:none!important}
+.hero-art-badge{width:112px!important;height:112px!important;border-radius:50%!important;display:grid!important;place-items:center!important;background:radial-gradient(circle,#e7c568,#b98629)!important;border:2px solid #e6ca78!important;box-shadow:0 0 0 8px rgba(206,164,61,.08),0 12px 32px rgba(0,0,0,.28)!important;color:#07141d!important;font-family:var(--font-serif)!important;font-size:52px!important;font-weight:900!important}
+.hero-art-label{margin:10px 0 0!important;color:#dcb957!important;font-family:var(--font-serif)!important;font-size:11px!important;letter-spacing:.12em!important}
+.hero-kicker{font-size:11px!important;margin-bottom:8px!important}
+.hero-title{font-size:40px!important;line-height:1.14!important;margin-bottom:15px!important}
+.hero-lead{font-size:13px!important;line-height:1.82!important;margin-bottom:18px!important}
+.hero-points{gap:6px!important}.point{min-height:92px!important;padding:10px 4px!important}.point-icon{height:28px!important;font-size:18px!important}.point span{font-size:12px!important}
+.hero-call{margin-top:9px!important}.hero-call strong{font-size:25px!important}
+.section{padding:40px 0!important}.section-title{font-size:21px!important}
+}
