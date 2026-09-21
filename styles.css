@@ -884,3 +884,24 @@ body{background:var(--paper)}
  .hero-title{font-size:38px}.logo-main{font-size:14px}.logo-tag{font-size:8px}
  .god-row span{width:31px}
 }
+
+
+/* premium content system v4 */
+.section-eyebrow,.col-header>span{display:block;color:#a51f24;font-size:11px;font-weight:800;letter-spacing:.18em;margin-bottom:7px}
+.section-copy{max-width:680px;margin:10px auto 0;color:#687078;font-size:14px;line-height:1.9}
+.reasons{background:linear-gradient(180deg,#fbf7ed,#f2e8d3)}
+.reason-card{position:relative;overflow:hidden;background:#fff;border:1px solid rgba(167,127,44,.24);box-shadow:0 12px 35px rgba(23,30,34,.07)}
+.reason-card:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,#8d1e24,#d4ad4f)}
+.reason-icon{color:#9c7425}.reason-card h3{color:#102331}
+.flow-items{background:#071a29;color:#eef3f5}
+.col-flow,.col-items{background:#0b2230;border:1px solid rgba(207,168,71,.35);box-shadow:0 20px 45px rgba(0,0,0,.18)}
+.col-header{background:linear-gradient(135deg,#071722,#102c3b);border-bottom:1px solid rgba(207,168,71,.35);padding:25px 28px}
+.col-header>span{color:#d5b45b}.col-header h2{color:#fff;margin:0 0 6px}.col-header p{color:#aebbc2;margin:0;font-size:12px}
+.flow-item{border-color:rgba(255,255,255,.08)}.flow-content h3{color:#f5df96}.flow-content p{color:#c4cdd1}.flow-num{background:#a52429;color:#fff}
+.col-items .items-grid{background:#0b2230}
+.item-card{background:#0f2b3a;border:1px solid rgba(207,168,71,.24);transition:transform .2s ease,border-color .2s ease}
+.item-card:hover{transform:translateY(-3px);border-color:#d4ad4f}.item-card span{color:#f2f3f1}
+.item-symbol{width:56px;height:56px;margin:0 auto 10px;border-radius:50%;display:grid;place-items:center;border:1px solid #cda447;background:radial-gradient(circle,#183b4b,#081a26);color:#e4c467;font-family:var(--font-serif);font-weight:700;font-size:12px;letter-spacing:.02em}
+.area{background:linear-gradient(135deg,#f7efd9,#ead4a3)}.area-inner{border:1px solid rgba(138,93,21,.28)}
+.faq{background:#fbf8f0}.faq-item{background:#fff;border-color:#e3d3ad}
+.company{background:#f2ead8}.company-table{box-shadow:0 12px 35px rgba(0,0,0,.06)}
