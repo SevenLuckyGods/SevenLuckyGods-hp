@@ -1,0 +1,22 @@
+@media (max-width:768px){
+html,body{margin:0!important;width:100%!important;max-width:100%!important;overflow-x:hidden!important}
+.top-bar{display:none!important}
+.header{position:relative!important;top:auto!important;width:100%!important}
+.header-inner{height:76px!important;padding:0 18px!important}
+.hero{min-height:0!important;height:auto!important;padding:0!important}
+.hero-bg{position:absolute!important;inset:0!important}
+.hero-content{position:relative!important;display:flex!important;flex-direction:column!important;min-height:0!important;height:auto!important;width:100%!important;max-width:100%!important;margin:0!important;padding:24px 18px 38px!important}
+.shichifukujin-art{position:relative!important;order:1!important;inset:auto!important;transform:none!important;width:100%!important;height:165px!important;margin:0 0 22px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.sun-ring{position:absolute!important;width:155px!important;height:155px!important;border-width:15px!important}
+.god-row{position:relative!important;display:flex!important;gap:2px!important;align-items:flex-end!important;justify-content:center!important}
+.god-row span{width:34px!important;height:72px!important;font-size:14px!important}
+.god-row span:nth-child(2),.god-row span:nth-child(6){height:84px!important}.god-row span:nth-child(4){height:96px!important}
+.shichifukujin-art p{position:absolute!important;bottom:5px!important;margin:0!important;font-size:11px!important;padding:5px 10px!important}
+.hero-left{position:relative!important;order:2!important;display:block!important;width:100%!important;max-width:100%!important;margin:0!important;padding:0!important;inset:auto!important;transform:none!important}
+.hero-title{position:relative!important;display:block!important;width:100%!important;max-width:100%!important;margin:0 0 16px!important;padding:0!important;font-size:40px!important;line-height:1.2!important;writing-mode:horizontal-tb!important;white-space:normal!important;text-align:left!important;inset:auto!important;transform:none!important}
+.hero-lead{position:relative!important;display:block!important;width:100%!important;max-width:100%!important;margin:0 0 20px!important;padding:0!important;font-size:15px!important;line-height:1.85!important;writing-mode:horizontal-tb!important;white-space:normal!important;text-align:left!important;inset:auto!important;transform:none!important}
+.hero-lead br{display:none!important}
+.hero-points{position:relative!important;display:flex!important;flex-direction:column!important;width:100%!important;max-width:100%!important;gap:10px!important;margin:0!important;padding:0!important;inset:auto!important;transform:none!important}
+.point{position:relative!important;width:100%!important;max-width:100%!important;min-height:68px!important;margin:0!important;padding:12px 15px!important;inset:auto!important;transform:none!important}
+.hero-right{display:none!important}
+}
