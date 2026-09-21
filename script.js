@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
 
 // Smooth reveal
 const revealEls = document.querySelectorAll(
-  '.reason-card, .result-card, .voice-card, .flow-item, .item-card, .faq-item'
+  '.reason-card, .flow-item, .item-card, .faq-item'
 );
 
 const observer = new IntersectionObserver((entries) => {
