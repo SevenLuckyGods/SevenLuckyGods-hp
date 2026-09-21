@@ -905,3 +905,12 @@ body{background:var(--paper)}
 .area{background:linear-gradient(135deg,#f7efd9,#ead4a3)}.area-inner{border:1px solid rgba(138,93,21,.28)}
 .faq{background:#fbf8f0}.faq-item{background:#fff;border-color:#e3d3ad}
 .company{background:#f2ead8}.company-table{box-shadow:0 12px 35px rgba(0,0,0,.06)}
+
+
+/* luxury homepage v5 */
+.header-inner{gap:18px}.header-phone{margin-left:auto;display:grid;grid-template-columns:auto auto;column-gap:8px;align-items:center;text-decoration:none;color:#fff}.header-phone span{grid-row:1/3;color:#d8b14b;font-size:25px}.header-phone strong{font-family:var(--font-serif);font-size:20px;line-height:1}.header-phone small{color:#c8d0d4;font-size:9px;margin-top:4px}
+.hero{background:#061724!important}.hero-content{position:relative;z-index:2}.hero-visual{border:1px solid #b98b2f!important;box-shadow:0 20px 60px rgba(0,0,0,.36)!important}.seven-gods-img{display:block;width:100%;height:auto}
+.hero-call{display:inline-flex;flex-direction:column;margin-top:18px;padding:13px 22px 14px;min-width:310px;background:linear-gradient(135deg,#a61920,#6e0f15);border:1px solid #e2b654;box-shadow:inset 0 0 0 2px rgba(255,255,255,.05),0 10px 30px rgba(0,0,0,.22);color:#fff;text-decoration:none}.hero-call span{font-size:11px}.hero-call strong{font-family:var(--font-serif);font-size:28px;letter-spacing:.04em}.hero-call small{font-size:9px;color:#f0dca2}
+.reasons{background:#071a29!important;color:#fff}.reasons .section-title{color:#fff}.reasons .section-copy{color:#bdc7cb}.reasons .section-eyebrow{color:#d8b45c}.reasons .section-ornament{color:#d8b45c}.reason-card{background:linear-gradient(145deg,#0c2736,#061722)!important;border:1px solid rgba(216,180,92,.45)!important;box-shadow:0 15px 35px rgba(0,0,0,.22)!important}.reason-card h3{color:#fff!important}.reason-icon{color:#e0bc61!important}
+#items .item-card,.item-card{overflow:hidden}.item-symbol{box-shadow:inset 0 0 18px rgba(215,177,75,.12)}
+.cta-section{background:linear-gradient(135deg,#081d2b,#04121c)!important;border-top:1px solid #9e7829;border-bottom:1px solid #9e7829}.cta-section h2,.cta-section p{color:#fff}.cta-phone{background:linear-gradient(135deg,#a71920,#6d1015)!important;border:1px solid #e1b654!important}
