@@ -827,264 +827,60 @@ img { max-width: 100%; display: block; }
 .sitemap-list{display:grid;gap:10px}.sitemap-list a{padding:14px 16px;background:var(--cream);border-left:3px solid var(--gold);border-radius:4px}.sitemap-list a:hover{background:var(--cream-dark)}
 @media(max-width:600px){.legal-page{width:calc(100% - 24px);margin:24px auto 48px;padding:24px 18px}.legal-list div{grid-template-columns:1fr}.legal-list dt{padding-bottom:2px}.legal-list dd{padding-top:2px}}
 
-
-/* ===== Seven Lucky Gods visual refresh ===== */
+/* ===== Seven Lucky Gods theme — clean responsive layer ===== */
 :root{--vermilion:#a51f24;--navy:#071a29;--paper:#f7f0df}
 body{background:var(--paper)}
-.header{background:rgba(5,20,31,.97);border-bottom:1px solid rgba(232,212,139,.32)}
-.logo-mark{background:radial-gradient(circle at 35% 30%,#f5dc83,#b48220 72%);box-shadow:0 0 0 2px #071a29,0 0 0 4px rgba(201,168,76,.6)}
-.hero{min-height:650px;background:linear-gradient(105deg,#f9f1dc 0%,#f5e7c1 43%,#d7aa49 100%);color:#13202a}
-.hero-bg{background:radial-gradient(circle at 70% 42%,rgba(255,255,255,.75),transparent 25%),radial-gradient(circle at 73% 45%,rgba(201,168,76,.35),transparent 47%),linear-gradient(0deg,rgba(7,26,41,.06),transparent 45%)}
-.hero-bg:before{content:"";position:absolute;left:-8%;right:-8%;bottom:-120px;height:300px;background:repeating-radial-gradient(ellipse at 50% 100%,transparent 0 38px,rgba(7,26,41,.11) 40px 43px,transparent 45px 76px);transform:scaleY(.45)}
-.hero-content{min-height:650px;padding-top:76px;padding-bottom:100px}
-.hero-left{position:relative;z-index:3;max-width:600px}
-.hero-title{font-size:clamp(3rem,6.5vw,5.2rem);color:#101820;text-shadow:0 2px 0 rgba(255,255,255,.55)}
-.hero-title .gold{color:var(--vermilion);text-shadow:none}
-.hero-lead{font-family:var(--font-serif);font-weight:600;color:#26343e;max-width:590px}
-.point{background:rgba(5,20,31,.88);border-color:rgba(201,168,76,.65);box-shadow:0 8px 24px rgba(7,26,41,.12)}
-.point strong{color:#fff}.point span{color:#f4d878}
-.hero-vertical{color:#f4d878;background:rgba(5,20,31,.9);border-color:#c9a84c;box-shadow:0 12px 40px rgba(0,0,0,.16)}
-.shichifukujin-art{position:absolute;z-index:2;right:5%;top:50%;transform:translateY(-50%);width:min(43vw,560px);height:440px;display:flex;flex-direction:column;justify-content:center;align-items:center;pointer-events:none}
-.sun-ring{position:absolute;width:360px;height:360px;border:32px solid rgba(185,132,28,.26);border-radius:50%;box-shadow:0 0 0 4px rgba(165,31,36,.08),inset 0 0 50px rgba(201,168,76,.2)}
-.god-row{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:5px;filter:drop-shadow(0 12px 10px rgba(72,47,12,.18))}
-.god-row span{font-family:var(--font-serif);display:flex;align-items:center;justify-content:center;width:62px;height:118px;border-radius:45% 45% 24% 24%;background:linear-gradient(160deg,#c89b3c,#7d191c);border:2px solid #6e5118;color:#f8e5a4;font-size:1.75rem;font-weight:800;box-shadow:inset 0 0 0 4px rgba(255,226,135,.15)}
-.god-row span:nth-child(2),.god-row span:nth-child(6){height:145px}.god-row span:nth-child(4){height:158px;background:linear-gradient(160deg,#d6b252,#8c2427)}
-.shichifukujin-art p{position:relative;margin-top:25px;padding:9px 22px;background:rgba(5,20,31,.9);color:#f5d97d;font-family:var(--font-serif);font-size:1.05rem;letter-spacing:.12em;border:1px solid rgba(201,168,76,.65)}
-.reasons{background:linear-gradient(#fbf7ed,#f3ead5)}
-.reason-card{border-radius:4px;border-top:3px solid var(--gold);box-shadow:0 10px 30px rgba(62,45,12,.08)}
-.flow-items{background:linear-gradient(135deg,#061724,#0c2638)}
-.col-flow,.col-items{background:#0b2130;border-color:rgba(201,168,76,.45)}
-.col-header{background:linear-gradient(90deg,#c09231,#ead17b)}
-.area{background:#f5eddb}.area-inner{border-radius:4px;border:1px solid rgba(168,139,46,.35)}
-.faq{background:linear-gradient(#faf5e9,#f3ead6)}
-.cta-section{position:relative;background:linear-gradient(135deg,#061724,#0d2b40);border-top:3px solid #c9a84c;border-bottom:3px solid #c9a84c}
-.cta-section:before{content:"福";position:absolute;left:8%;top:50%;transform:translateY(-50%);font-family:var(--font-serif);font-size:9rem;color:rgba(201,168,76,.06)}
-.company{background:#f7f0df}.company-table{border-radius:4px}
+.header{background:#071a29;border-bottom:1px solid rgba(201,168,76,.35)}
+.logo-mark{background:radial-gradient(circle at 35% 30%,#f5dc83,#b48220 72%);box-shadow:0 0 0 2px #071a29,0 0 0 4px rgba(201,168,76,.55)}
+.hero{background:linear-gradient(135deg,#faf2df,#efd7a2);color:#14212b}
+.hero-bg{background:radial-gradient(circle at 72% 42%,rgba(255,255,255,.7),transparent 32%)}
+.hero-title{color:#101820}.hero-title .gold{color:var(--vermilion)}
+.hero-lead{color:#26343e}
+.point{background:#0a1d2a;border-color:#b9913d}.point strong{color:#fff}.point span{color:#f1d474}
+.shichifukujin-art{position:absolute;right:4%;top:50%;transform:translateY(-50%);width:44%;height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.sun-ring{position:absolute;width:340px;height:340px;border:28px solid rgba(185,132,28,.22);border-radius:50%}
+.god-row{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:5px}
+.god-row span{font-family:var(--font-serif);display:flex;align-items:center;justify-content:center;width:58px;height:116px;border-radius:45% 45% 24% 24%;background:linear-gradient(160deg,#c89b3c,#7d191c);border:2px solid #6e5118;color:#f8e5a4;font-size:1.6rem;font-weight:800}
+.god-row span:nth-child(2),.god-row span:nth-child(6){height:140px}.god-row span:nth-child(4){height:152px}
+.shichifukujin-art p{position:relative;margin-top:20px;padding:8px 18px;background:#071a29;color:#f5d97d;font-family:var(--font-serif);border:1px solid #b9913d}
 .footer{background:#05141f;border-top:1px solid #c9a84c}
-.section-title:after{content:"";display:block;width:72px;height:2px;background:linear-gradient(90deg,transparent,#b48a30,transparent);margin:12px auto 0}
-@media(max-width:1024px){.shichifukujin-art{right:-4%;opacity:.38}.hero-left{max-width:650px}.hero-content{position:relative}}
-@media(max-width:768px){.hero{min-height:690px}.hero-content{min-height:690px;padding-top:52px;padding-bottom:62px}.shichifukujin-art{top:38%;right:-100px;width:520px;opacity:.18}.sun-ring{width:310px;height:310px}.hero-title{font-size:clamp(2.8rem,14vw,4.2rem)}.hero-lead br{display:none}.point{background:rgba(5,20,31,.94)}}
-@media(max-width:480px){.god-row span{width:46px;height:96px;font-size:1.25rem}.god-row span:nth-child(2),.god-row span:nth-child(6){height:112px}.god-row span:nth-child(4){height:126px}.shichifukujin-art{right:-125px}.top-bar-text{display:none}.phone-block{align-items:flex-start}}
 
-/* Mobile hero fix: keep Seven Lucky Gods motif visible without overlapping copy */
-@media(max-width:768px){
-  .hero{min-height:auto;padding:0}
-  .hero-content{min-height:auto;display:block;padding:56px 24px 48px}
-  .hero-left{max-width:none}
-  .shichifukujin-art{
-    position:relative;top:auto;right:auto;transform:none;
-    width:100%;height:235px;opacity:1;margin:0 auto 24px;overflow:hidden;
-  }
-  .sun-ring{width:220px;height:220px;border-width:20px;opacity:.72}
-  .god-row{gap:3px}
-  .god-row span{width:40px;height:86px;font-size:1.05rem}
-  .god-row span:nth-child(2),.god-row span:nth-child(6){height:102px}
-  .god-row span:nth-child(4){height:114px}
-  .shichifukujin-art p{margin-top:14px;font-size:.82rem;padding:7px 12px}
-  .hero-title{font-size:clamp(2.65rem,13vw,4rem);line-height:1.25;margin-bottom:22px}
-  .hero-lead{font-size:1rem;line-height:1.9;margin-bottom:28px}
-  .hero-points{gap:10px}
-}
-@media(max-width:480px){
-  .shichifukujin-art{right:auto;height:215px}
-  .hero-content{padding:42px 20px 42px}
-}
-
-
-/* ===== MOBILE-FIRST REBUILD v3 ===== */
-@media (max-width: 768px) {
+@media (max-width:768px){
   html,body{width:100%;max-width:100%;overflow-x:hidden}
+  .top-bar{display:none}
   .container{width:100%;max-width:none;padding-left:18px;padding-right:18px}
-  .top-bar{padding:0;background:#05090c}
-  .top-bar-inner{min-height:76px;padding-top:12px;padding-bottom:12px;display:flex;justify-content:center}
-  .top-bar-text{display:none!important}
-  .top-bar-contact{width:100%;display:block}
-  .phone-block{width:100%;display:flex;flex-direction:column;align-items:center;gap:2px}
-  .phone-label{font-size:.78rem;line-height:1.35;color:rgba(255,255,255,.72)}
-  .phone-number{font-size:1.55rem;line-height:1.25;letter-spacing:.035em}
-  .phone-number .icon-phone{width:19px;height:19px}
   .header{position:relative;top:auto}
-  .header-inner{height:78px;padding-left:18px;padding-right:18px}
-  .logo{gap:10px;min-width:0}
-  .logo-mark{width:48px;height:48px;flex:0 0 48px}
-  .logo-fuku{font-size:1.45rem}
-  .logo-text{min-width:0}
-  .logo-sub{font-size:.66rem}
-  .logo-main{font-size:1.03rem;white-space:nowrap}
-  .logo-tag{font-size:.61rem;white-space:nowrap}
+  .header-inner{height:76px;padding:0 18px}
+  .logo{gap:10px;min-width:0}.logo-mark{width:46px;height:46px;flex:0 0 46px}
+  .logo-sub{font-size:10px}.logo-main{font-size:16px;white-space:nowrap}.logo-tag{font-size:9px;white-space:nowrap}
   .menu-toggle{width:42px;height:42px;flex:0 0 42px}
-  .nav.open{top:78px;z-index:1000;padding:8px 20px 18px}
-  .nav.open a{font-size:.92rem}
+  .nav.open{top:76px;z-index:1000;background:#071a29;padding:8px 20px 18px}
 
-  .hero{min-height:0;background:linear-gradient(145deg,#fbf5e7 0%,#f2ddb0 64%,#d7ad53 100%)}
-  .hero-bg:before{display:none}
-  .hero-content{display:flex!important;flex-direction:column!important;min-height:0!important;padding:0 18px 38px!important}
-  .shichifukujin-art{
-    position:relative!important;inset:auto!important;transform:none!important;
-    order:0;width:calc(100% + 36px)!important;height:190px!important;
-    margin:0 -18px 24px!important;opacity:1!important;overflow:hidden!important;
-    display:flex!important;justify-content:center!important;align-items:center!important;
-  }
-  .sun-ring{width:190px!important;height:190px!important;border-width:18px!important;opacity:.52!important}
-  .god-row{gap:2px!important;transform:translateY(3px)}
-  .god-row span{width:38px!important;height:82px!important;font-size:1rem!important}
-  .god-row span:nth-child(2),.god-row span:nth-child(6){height:96px!important}
-  .god-row span:nth-child(4){height:108px!important}
-  .shichifukujin-art p{position:absolute!important;bottom:9px!important;margin:0!important;font-size:.73rem!important;padding:6px 12px!important;white-space:nowrap}
-  .hero-left{order:1;width:100%!important;max-width:none!important}
-  .hero-title{font-size:clamp(2.55rem,12.5vw,3.6rem)!important;line-height:1.18!important;letter-spacing:.01em!important;margin:0 0 18px!important;max-width:100%!important}
-  .hero-lead{font-size:.96rem!important;line-height:1.9!important;margin:0 0 24px!important;max-width:100%!important}
-  .hero-lead br{display:none!important}
-  .hero-points{display:grid!important;grid-template-columns:1fr!important;gap:9px!important;width:100%!important}
-  .point{width:100%!important;min-height:72px!important;padding:13px 16px!important}
-  .point-icon{width:34px!important;height:34px!important;flex:0 0 34px!important}
-  .point strong{font-size:.78rem!important}.point span{font-size:1rem!important}
-  .hero-right{display:none!important}
+  .hero{min-height:0;height:auto;padding:0}
+  .hero-content{min-height:0;height:auto;display:block;padding:28px 18px 38px}
+  .shichifukujin-art{position:relative;inset:auto;transform:none;width:100%;height:170px;margin:0 0 24px;overflow:hidden}
+  .sun-ring{width:160px;height:160px;border-width:15px}
+  .god-row{gap:2px}.god-row span{width:34px;height:74px;font-size:14px}
+  .god-row span:nth-child(2),.god-row span:nth-child(6){height:86px}.god-row span:nth-child(4){height:98px}
+  .shichifukujin-art p{position:absolute;bottom:5px;margin:0;padding:5px 10px;font-size:11px}
+  .hero-left{position:relative;width:100%;max-width:none;margin:0;padding:0}
+  .hero-title{width:100%;margin:0 0 16px;font-size:42px;line-height:1.2;text-align:left;writing-mode:horizontal-tb;white-space:normal}
+  .hero-lead{width:100%;margin:0 0 22px;font-size:15px;line-height:1.85;text-align:left;writing-mode:horizontal-tb;white-space:normal}
+  .hero-lead br{display:none}
+  .hero-points{display:grid;grid-template-columns:1fr;gap:10px;width:100%;margin:0}
+  .point{width:100%;min-height:68px;padding:12px 15px}
+  .hero-right{display:none}
 
-  .section{padding:52px 0}
-  .section-header{margin-bottom:30px}
-  .section-title{font-size:1.35rem;line-height:1.5;text-align:center}
-  .section-ornament{display:none}
-  .reasons-grid{grid-template-columns:1fr!important;gap:12px!important}
-  .reason-card{padding:24px 18px!important}
-  .two-col{display:block!important}
-  .col-flow,.col-items{width:100%!important;margin:0 0 22px!important;border-radius:6px!important}
-  .col-header{padding:15px 16px!important}
-  .flow-item{grid-template-columns:38px 1fr 30px!important;padding:16px 14px!important;gap:10px!important}
-  .flow-num{width:34px!important;height:34px!important}
-  .flow-content h3{font-size:.96rem!important}.flow-content p{font-size:.8rem!important;line-height:1.6}
-  .items-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:14px!important}
-  .item-card{min-width:0!important;padding:15px 6px!important}
-  .item-card span{font-size:.76rem!important;overflow-wrap:anywhere}
-  .area-inner{padding:26px 18px!important;gap:22px!important}
-  .badge-circle{width:104px!important;height:104px!important}
-  .faq-item summary{padding:16px 15px!important;font-size:.9rem!important;gap:10px}
-  .faq-item p{padding:0 15px 17px!important;font-size:.86rem!important}
-  .cta-section{padding:50px 18px!important}
-  .cta-section:before{font-size:7rem;left:2%}
-  .cta-phone{font-size:clamp(1.65rem,8vw,2.2rem)!important}
-  .company-table{width:100%!important}
-  .company-table dl div{grid-template-columns:1fr!important}
-  .company-table dt{padding:12px 14px 3px!important}
-  .company-table dd{padding:3px 14px 13px!important;overflow-wrap:anywhere}
-  .footer{padding-top:38px!important}
-  .footer-grid{grid-template-columns:1fr!important;gap:22px!important}
-  .page-top{width:44px;height:44px;right:16px;bottom:16px}
-}
-@media (max-width: 380px){
-  .container{padding-left:14px;padding-right:14px}
-  .hero-content{padding-left:14px!important;padding-right:14px!important}
-  .shichifukujin-art{width:calc(100% + 28px)!important;margin-left:-14px!important;margin-right:-14px!important}
-  .logo-main{font-size:.9rem}.logo-tag{font-size:.55rem}
-  .hero-title{font-size:2.45rem!important}
-}
-
-
-/* ===== MOBILE FOUNDATION REBUILD ===== */
-@media (max-width: 768px) {
-  *{box-sizing:border-box}
-  html,body{margin:0;width:100%;max-width:100%;overflow-x:hidden}
-  body{font-size:16px}
-  .container{width:100%!important;max-width:100%!important;margin:0!important;padding-left:20px!important;padding-right:20px!important}
-
-  .top-bar{display:none!important}
-  .header{position:relative!important;top:auto!important;width:100%!important;background:#071a29!important}
-  .header-inner{height:76px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;padding:0 18px!important}
-  .logo{display:flex!important;align-items:center!important;gap:10px!important;min-width:0!important}
-  .logo-mark{width:46px!important;height:46px!important;flex:0 0 46px!important}
-  .logo-text{min-width:0!important}
-  .logo-sub{font-size:10px!important;line-height:1.15!important}
-  .logo-main{font-size:16px!important;line-height:1.25!important;white-space:nowrap!important}
-  .logo-tag{font-size:9px!important;line-height:1.2!important;white-space:nowrap!important}
-  .menu-toggle{display:flex!important;width:42px!important;height:42px!important;flex:0 0 42px!important}
-  .nav{display:none!important}
-  .nav.open{display:flex!important;position:absolute!important;top:76px!important;left:0!important;right:0!important;z-index:9999!important;background:#071a29!important;flex-direction:column!important;padding:8px 20px 20px!important}
-  .nav.open a{width:100%!important;padding:14px 0!important}
-
-  .hero{position:relative!important;min-height:0!important;height:auto!important;padding:0!important;background:linear-gradient(150deg,#fbf5e7 0%,#f4e5c0 62%,#d8b45f 100%)!important}
-  .hero-bg{position:absolute!important;inset:0!important;overflow:hidden!important}
-  .hero-bg:before{display:none!important}
-  .hero-content{position:relative!important;display:flex!important;flex-direction:column!important;width:100%!important;min-height:0!important;height:auto!important;padding:0 20px 40px!important;margin:0!important}
-  .shichifukujin-art{position:relative!important;top:auto!important;right:auto!important;left:auto!important;bottom:auto!important;transform:none!important;width:100%!important;height:170px!important;margin:0!important;opacity:1!important;overflow:hidden!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important}
-  .sun-ring{position:absolute!important;width:160px!important;height:160px!important;border-width:16px!important;opacity:.45!important}
-  .god-row{position:relative!important;display:flex!important;width:100%!important;justify-content:center!important;align-items:flex-end!important;gap:2px!important}
-  .god-row span{width:36px!important;height:76px!important;font-size:15px!important;flex:0 0 36px!important}
-  .god-row span:nth-child(2),.god-row span:nth-child(6){height:88px!important}
-  .god-row span:nth-child(4){height:100px!important}
-  .shichifukujin-art p{position:absolute!important;bottom:8px!important;left:50%!important;transform:translateX(-50%)!important;width:max-content!important;max-width:90%!important;margin:0!important;padding:6px 10px!important;font-size:11px!important;line-height:1.3!important}
-
-  .hero-left{position:relative!important;z-index:3!important;width:100%!important;max-width:100%!important;margin:0!important;padding:0!important}
-  .hero-title{display:block!important;width:100%!important;max-width:100%!important;margin:0 0 16px!important;padding:0!important;font-size:42px!important;line-height:1.22!important;letter-spacing:0!important;writing-mode:horizontal-tb!important;white-space:normal!important;overflow-wrap:normal!important}
-  .hero-title br{display:block!important}
-  .hero-lead{display:block!important;width:100%!important;max-width:100%!important;margin:0 0 22px!important;padding:0!important;font-size:15px!important;line-height:1.9!important;writing-mode:horizontal-tb!important;white-space:normal!important;overflow-wrap:break-word!important}
-  .hero-lead br{display:none!important}
-  .hero-points{display:grid!important;grid-template-columns:1fr!important;width:100%!important;gap:10px!important;margin:0!important}
-  .point{display:flex!important;width:100%!important;min-width:0!important;min-height:68px!important;margin:0!important;padding:12px 15px!important;align-items:center!important}
-  .point-icon{width:34px!important;height:34px!important;flex:0 0 34px!important}
-  .point strong{font-size:12px!important}.point span{font-size:16px!important}
-  .hero-right{display:none!important}
-
-  .section{width:100%!important;padding:48px 0!important}
-  .section-header{margin-bottom:26px!important}
-  .section-title{font-size:21px!important;line-height:1.5!important;text-align:center!important}
-  .section-ornament{display:none!important}
-  .reasons-grid{display:grid!important;grid-template-columns:1fr!important;gap:12px!important}
-  .reason-card{width:100%!important;padding:22px 16px!important}
-  .two-col{display:flex!important;flex-direction:column!important;gap:20px!important;width:100%!important}
-  .col-flow,.col-items{width:100%!important;max-width:100%!important;margin:0!important;border-radius:6px!important;overflow:hidden!important}
-  .flow-item{display:grid!important;grid-template-columns:36px minmax(0,1fr) 28px!important;gap:10px!important;padding:15px 13px!important}
-  .flow-content{min-width:0!important}.flow-content h3{font-size:15px!important}.flow-content p{font-size:12px!important;line-height:1.6!important}
-  .items-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:12px!important}
-  .item-card{min-width:0!important;padding:14px 5px!important}.item-card span{font-size:12px!important}
-  .area-inner{display:flex!important;flex-direction:column!important;width:100%!important;padding:26px 18px!important;text-align:center!important}
-  .faq-list{width:100%!important}.faq-item summary{padding:15px!important;font-size:14px!important}.faq-item p{padding:0 15px 16px!important;font-size:13px!important}
-  .cta-section{width:100%!important;padding:46px 20px!important}.cta-phone{font-size:28px!important}
-  .company-table{width:100%!important}.company-table dl div{display:block!important}.company-table dt{padding:11px 13px 2px!important}.company-table dd{padding:3px 13px 12px!important}
-  .footer-grid{display:flex!important;flex-direction:column!important;gap:24px!important}
+  .section{padding:48px 0}.section-title{font-size:21px;line-height:1.5;text-align:center}.section-ornament{display:none}
+  .reasons-grid{grid-template-columns:1fr;gap:12px}.reason-card{padding:22px 16px}
+  .two-col{display:flex;flex-direction:column;gap:20px}.col-flow,.col-items{width:100%;margin:0}
+  .flow-item{grid-template-columns:36px minmax(0,1fr) 28px;gap:10px;padding:15px 13px}
+  .items-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:12px}
+  .area-inner{padding:26px 18px;text-align:center}.cta-section{padding:46px 18px}.cta-phone{font-size:28px}
+  .company-table dl div{grid-template-columns:1fr}.company-table dt{padding:11px 13px 2px}.company-table dd{padding:3px 13px 12px}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
 }
 @media (max-width:390px){
-  .container{padding-left:15px!important;padding-right:15px!important}
-  .hero-content{padding-left:15px!important;padding-right:15px!important}
-  .hero-title{font-size:38px!important}
-  .logo-main{font-size:14px!important}.logo-tag{font-size:8px!important}
-  .god-row span{width:32px!important;flex-basis:32px!important}
-}
-
-
-/* ===== iPhone layout hard reset v4 ===== */
-@media screen and (max-width: 768px){
-  .top-bar{display:none!important;height:0!important;min-height:0!important}
-  .hero .container.hero-content{display:flex!important;flex-direction:column!important;padding:0 18px 36px!important}
-  .hero .shichifukujin-art{
-    position:relative!important;display:flex!important;order:1!important;
-    width:100%!important;height:150px!important;margin:0 0 18px!important;
-    inset:auto!important;transform:none!important;float:none!important;
-  }
-  .hero .hero-left{
-    position:relative!important;display:flex!important;flex-direction:column!important;order:2!important;
-    width:100%!important;max-width:100%!important;inset:auto!important;transform:none!important;
-    float:none!important;margin:0!important;padding:0!important;
-  }
-  .hero .hero-title{
-    position:relative!important;display:block!important;float:none!important;
-    width:100%!important;max-width:100%!important;margin:0 0 14px!important;
-    padding:0!important;transform:none!important;inset:auto!important;
-    writing-mode:horizontal-tb!important;text-orientation:mixed!important;
-    white-space:normal!important;text-align:left!important;
-    font-size:40px!important;line-height:1.2!important;
-  }
-  .hero .hero-lead{
-    position:relative!important;display:block!important;float:none!important;
-    width:100%!important;max-width:100%!important;margin:0 0 20px!important;
-    padding:0!important;transform:none!important;inset:auto!important;
-    writing-mode:horizontal-tb!important;text-orientation:mixed!important;
-    white-space:normal!important;text-align:left!important;
-    font-size:15px!important;line-height:1.85!important;
-  }
-  .hero .hero-points{
-    position:relative!important;display:grid!important;grid-template-columns:1fr!important;
-    width:100%!important;max-width:100%!important;margin:0!important;padding:0!important;
-    inset:auto!important;transform:none!important;float:none!important;
-  }
-  .hero .point{position:relative!important;float:none!important;inset:auto!important;transform:none!important}
+ .hero-title{font-size:38px}.logo-main{font-size:14px}.logo-tag{font-size:8px}
+ .god-row span{width:31px}
 }
