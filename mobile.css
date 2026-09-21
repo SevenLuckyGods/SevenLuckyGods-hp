@@ -44,3 +44,12 @@ html,body{margin:0!important;width:100%!important;max-width:100%!important;overf
 .hero-visual p{position:relative!important;left:auto!important;bottom:auto!important;transform:none!important;width:100%!important;max-width:none!important;padding:10px 8px 12px!important;text-align:center!important;background:#071a29!important;margin:0!important}
 .hero-emblem,.hero-gods{display:none!important}
 }
+
+@media(max-width:768px){
+.section-eyebrow{font-size:10px;margin-bottom:6px}.section-copy{font-size:13px;line-height:1.75;margin-top:8px}
+.reasons-grid{gap:12px!important}.reason-card{padding:24px 16px!important}
+.col-header{padding:22px 18px!important}.col-header h2{font-size:22px!important}.col-header p{font-size:12px!important}
+.items-grid{padding:12px!important;gap:9px!important}.item-card{min-height:118px!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+.item-symbol{width:48px!important;height:48px!important;font-size:10px!important;margin-bottom:9px!important}
+.area-inner{border-radius:6px!important}.faq-item{border-radius:4px!important}
+}
