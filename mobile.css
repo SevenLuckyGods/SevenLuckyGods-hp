@@ -89,3 +89,23 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
 .hero-left{order:1!important;max-width:none!important;width:100%!important}
 }
 @media(max-width:390px){.hero-photo{height:225px!important}}
+
+/* hero mobile crop correction v20 */
+@media(max-width:768px){
+  .hero-photo{height:240px!important;overflow:hidden!important;margin-bottom:22px!important}
+  .hero-photo:before{display:none!important}
+  .hero-photo img{
+    width:145%!important;
+    max-width:none!important;
+    height:100%!important;
+    margin-left:-45%!important;
+    object-fit:cover!important;
+    object-position:right center!important;
+  }
+  .hero-content{overflow:hidden!important}
+  .hero-left{padding-top:0!important}
+}
+@media(max-width:390px){
+  .hero-photo{height:220px!important}
+  .hero-photo img{width:150%!important;margin-left:-50%!important}
+}
