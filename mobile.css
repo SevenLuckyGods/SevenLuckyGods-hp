@@ -134,3 +134,19 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
   }
 }
 @media(max-width:390px){.hero-photo{height:205px!important}}
+
+/* rich visuals mobile v22 */
+@media(max-width:768px){
+ .reasons-grid{gap:16px!important}
+ .reason-card{padding:0 0 20px!important;border-radius:14px!important}
+ .reason-photo{height:150px!important;margin-bottom:18px!important}
+ .reason-card .reason-icon{width:46px!important;height:46px!important;margin:0 20px 10px!important}
+ .reason-card h3{margin:0 20px!important}
+ .flow-item{padding:135px 18px 18px!important;min-height:235px!important}
+ .flow-photo{height:118px!important}
+ .items-showcase{height:190px!important;margin-bottom:18px!important;border-radius:14px!important}
+ .area-inner{display:flex!important;flex-direction:column!important;gap:20px!important}
+ .area-visual{order:2!important;width:100%!important;height:210px!important}
+ .area-badge{order:3!important}
+ .area-text{order:1!important}
+}
