@@ -42,3 +42,23 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
 .item-card span{font-size:13px!important;font-weight:700!important;letter-spacing:.02em!important;color:#fff!important}
 .items-grid{gap:8px!important}
 }
+
+/* premium mobile palette + hero reset 2026-10-05 */
+@media(max-width:768px){
+:root{--ink:#173b3a;--ink2:#214844;--gold:#c3a35b;--cream:#f7f5ef;--red:#913b3e}
+.header{background:#142f32!important}
+.hero{background:linear-gradient(145deg,#142f32 0%,#1b4642 62%,#2b5b51 100%)!important}
+.hero:before{opacity:.45!important;background:radial-gradient(circle at 92% 18%,rgba(225,198,128,.2),transparent 27%)!important}
+.hero-content{padding:42px 20px 35px!important}
+.hero-showcase{position:relative!important;right:auto!important;top:auto!important;transform:none!important;width:100%!important;height:205px!important;margin:0 0 25px!important;order:0!important}
+.hero-content{display:flex!important;flex-direction:column!important}.hero-left{order:1!important}
+.showcase-halo{width:185px!important;height:185px!important;right:12px!important;top:5px!important}
+.showcase-watch{width:105px!important;height:132px!important;right:112px!important;top:35px!important}.watch-face{width:62px!important;height:62px!important;border-width:5px!important}.watch-face:before{height:20px!important}.watch-face:after{height:15px!important}
+.showcase-ring{width:90px!important;height:92px!important;right:25px!important;top:18px!important}.showcase-ring i{width:43px!important;height:43px!important;border-width:5px!important;bottom:12px!important}.showcase-ring .gem{font-size:29px!important;top:11px!important}
+.showcase-gold{width:110px!important;height:72px!important;right:21px!important;bottom:13px!important;padding:18px 15px!important}.showcase-gold span{height:11px!important}
+.showcase-seal{left:4px!important;bottom:23px!important;width:68px!important;height:68px!important;font-size:32px!important}.showcase-seal small{font-size:5px!important;bottom:-17px!important}
+.hero-emblem{display:none!important}
+.reasons{background:linear-gradient(180deg,#f8f6f0,#ebe8df)!important}.reason-card{background:#fff!important;border-color:#d7d0c3!important}
+.flow-items{background:linear-gradient(145deg,#173b3a,#102e31)!important}.col-flow,.col-items{background:#173938!important}.col-header{background:linear-gradient(135deg,#112f31,#204944)!important}.item-card{background:linear-gradient(145deg,#214844,#153433)!important}
+.area{background:linear-gradient(135deg,#e0e8e3,#f5f2eb)!important}.company{background:#e7ece8!important}.faq{background:#f8f6f1!important}
+}
