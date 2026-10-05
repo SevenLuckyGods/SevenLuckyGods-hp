@@ -78,3 +78,14 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
 .hero-title{color:#211b17!important}.hero-title .gold{color:#7c2428!important}.hero-kicker{color:#8a652d!important}.hero-lead{color:#5d5146!important}.point{background:#fffaf1!important;border-color:#cfb98f!important}.point strong{color:#65594e!important}.point span{color:#7b2428!important}.hero-call{background:linear-gradient(135deg,#7b2228,#5d181d)!important}
 .reasons{background:#f7f1e7!important}.reason-card{background:#fffaf1!important;border-color:#d8c6a5!important}.flow-items{background:linear-gradient(145deg,#2b211c,#181512)!important}.col-flow,.col-items{background:#241d19!important;border-color:#72582f!important}.col-header{background:linear-gradient(135deg,#6f2025,#3f1719)!important}.item-card{background:linear-gradient(145deg,#302721,#1d1916)!important;border-color:#70582f!important}.item-card span{color:#f2eadb!important}.area{background:#e8ddca!important}.area-inner{background:#f9f4ea!important}.faq{background:#f7f1e7!important}.company{background:#e8ddca!important}.brand-band{display:none!important}
 }
+
+/* real photo hero mobile v19 */
+@media(max-width:768px){
+.hero{display:block!important;min-height:0!important;background:#f7f1e5!important}
+.hero-content{display:flex!important;flex-direction:column!important;padding:0 20px 38px!important}
+.hero-photo{position:relative!important;right:auto!important;top:auto!important;width:calc(100% + 40px)!important;height:260px!important;margin:0 -20px 28px!important;order:0!important;background:#211814!important}
+.hero-photo:before{background:linear-gradient(0deg,rgba(247,241,229,.22),transparent 38%)!important}
+.hero-photo img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important}
+.hero-left{order:1!important;max-width:none!important;width:100%!important}
+}
+@media(max-width:390px){.hero-photo{height:225px!important}}
