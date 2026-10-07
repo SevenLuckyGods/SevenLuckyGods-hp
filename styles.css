@@ -1017,3 +1017,6 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 .artwork-action a:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(89,21,25,.24)}
 .artwork-area{padding-bottom:52px!important}
 .faq{border-top:1px solid rgba(184,139,52,.35)}
+
+/* SEO semantic heading: visible to crawlers/accessibility, no duplicate visual headline */
+.seo-heading{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
