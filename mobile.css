@@ -150,3 +150,20 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
  .area-badge{order:3!important}
  .area-text{order:1!important}
 }
+
+/* ===== mobile stability reset v23 ===== */
+@media(max-width:768px){
+  html,body{max-width:100%!important;overflow-x:hidden!important}
+  .container{width:100%!important;max-width:100%!important;box-sizing:border-box!important}
+  .reason-card{padding:24px 20px!important;min-height:0!important}
+  .reason-card .reason-icon{margin:0 auto 12px!important}
+  .reason-card h3{margin:0!important}
+  .flow-item{padding:18px!important;min-height:0!important;display:grid!important;grid-template-columns:48px 1fr 34px!important;align-items:center!important;gap:12px!important}
+  .flow-num{position:static!important}
+  .flow-content{min-width:0!important}
+  .flow-content h3,.flow-content p{overflow-wrap:anywhere!important}
+  .items-grid{width:100%!important;max-width:100%!important}
+  .item-card{min-width:0!important;overflow:hidden!important}
+  .area-inner{display:flex!important;flex-direction:column!important;gap:20px!important}
+  .area-badge{order:2!important}
+}
