@@ -1002,3 +1002,18 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 .hero{min-height:0!important;display:block!important;background:#f8f2e6!important}
 .reasons{padding:50px 0!important;background:#fbf6ec!important}
 .flow-items{padding:50px 0!important;background:#fffaf1!important}
+
+/* ===== Approved artwork homepage v27 ===== */
+.artwork-home{background:#17120f}
+.artwork-section{position:relative;width:100%;background:#f7f0e3;scroll-margin-top:92px}
+.artwork-section picture,.artwork-section img{display:block;width:100%}
+.artwork-section img{height:auto;max-width:100%;margin:0 auto}
+.artwork-section:not(.artwork-hero){padding:34px max(24px,calc((100vw - 1440px)/2))}
+.artwork-section:not(.artwork-hero) img{max-width:1360px;border-radius:18px;box-shadow:0 18px 52px rgba(32,20,12,.14)}
+.artwork-hero{padding:0;background:#211713}
+.artwork-hero img{max-height:760px;object-fit:cover;object-position:center}
+.artwork-action{text-align:center;padding:0 20px 8px;margin-top:24px}
+.artwork-action a{display:inline-flex;align-items:center;justify-content:center;min-width:280px;padding:15px 32px;border-radius:999px;background:linear-gradient(135deg,#7b1d24,#561319);border:1px solid #c49a48;color:#fff8e9;font-weight:700;letter-spacing:.08em;text-decoration:none;box-shadow:0 10px 24px rgba(89,21,25,.18);transition:.2s ease}
+.artwork-action a:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(89,21,25,.24)}
+.artwork-area{padding-bottom:52px!important}
+.faq{border-top:1px solid rgba(184,139,52,.35)}
