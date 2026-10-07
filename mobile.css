@@ -167,3 +167,18 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
   .area-inner{display:flex!important;flex-direction:column!important;gap:20px!important}
   .area-badge{order:2!important}
 }
+
+/* ===== final responsive artwork mobile v24 ===== */
+@media(max-width:768px){
+ .hero{padding:0!important;margin:0!important}
+ .hero .final-visual-wrap{padding:0!important;width:100%!important;max-width:none!important}
+ .final-section-image{width:100%!important;margin:0!important}
+ .final-section-image img{width:100%!important;height:auto!important;max-width:none!important;object-fit:contain!important}
+ .final-hero-image img,.reasons .final-section-image img,.final-visual-sections .final-section-image img{border-radius:0!important;box-shadow:none!important}
+ .reasons{padding:24px 0!important}
+ .reasons>.container,.final-visual-sections>.container{padding-left:0!important;padding-right:0!important}
+ .flow-items{padding:24px 0 38px!important}
+ .final-visual-sections .container{gap:24px!important}
+ .final-items-link{padding:0 20px!important;margin-top:-4px!important}
+ .final-items-link a{width:100%!important;box-sizing:border-box!important}
+}
