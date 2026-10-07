@@ -27,7 +27,7 @@ jobs:
               if prefix not in {"01","02","03","04","05"}: continue
               mode="mobile" if "スマホ" in n else "pc"
               out=f"assets/final/{prefix}-{mode}"
-              subprocess.run(["pdftoppm","-png","-singlefile","-r","144",f,out],check=True)
+              subprocess.run(["pdftoppm","-jpeg","-jpegopt","quality=92","-singlefile","-r","144",f,out],check=True)
           PY
       - name: Commit rendered web images
         run: |
