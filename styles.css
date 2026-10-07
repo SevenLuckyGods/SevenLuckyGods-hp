@@ -988,3 +988,17 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 .area-visual{width:300px;height:210px;border-radius:18px;overflow:hidden;box-shadow:0 12px 30px rgba(38,24,18,.18);border:1px solid rgba(184,140,48,.35)}
 .area-visual img{object-position:center}
 .reasons,.flow-items,.area{background-image:radial-gradient(circle at 8% 8%,rgba(190,145,48,.08),transparent 28%),radial-gradient(circle at 92% 88%,rgba(119,26,30,.06),transparent 30%)!important}
+
+/* ===== final responsive artwork integration v24 ===== */
+.final-visual-wrap{max-width:1280px!important;padding-top:24px!important;padding-bottom:24px!important}
+.final-section-image{display:block;width:100%;margin:0 auto}
+.final-section-image img{display:block;width:100%;height:auto;object-fit:contain}
+.final-hero-image img{border-radius:18px;box-shadow:0 16px 45px rgba(35,20,12,.18)}
+.reasons .final-section-image img,.final-visual-sections .final-section-image img{border-radius:14px;box-shadow:0 10px 30px rgba(45,28,17,.10)}
+.final-visual-sections .container{display:flex;flex-direction:column;gap:32px}
+.final-items-anchor{scroll-margin-top:100px}
+.final-items-link{text-align:center;margin-top:-12px}
+.final-items-link a{display:inline-block;padding:13px 28px;border:1px solid #9b7029;border-radius:999px;color:#6f161b;background:#fffaf0;font-weight:700;text-decoration:none}
+.hero{min-height:0!important;display:block!important;background:#f8f2e6!important}
+.reasons{padding:50px 0!important;background:#fbf6ec!important}
+.flow-items{padding:50px 0!important;background:#fffaf1!important}
