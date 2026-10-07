@@ -1,0 +1,39 @@
+name: Render uploaded artwork PDFs
+on:
+  push:
+    paths:
+      - '*.pdf'
+      - '.github/workflows/render-pdfs.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install renderer
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Render first PDF page to PNG
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/final
+          python3 - <<'PY'
+          import os, glob, subprocess, unicodedata
+          for f in glob.glob("*.pdf"):
+              n=unicodedata.normalize("NFC", os.path.basename(f))
+              prefix=n[:2]
+              if prefix not in {"01","02","03","04","05"}: continue
+              mode="mobile" if "スマホ" in n else "pc"
+              out=f"assets/final/{prefix}-{mode}"
+              subprocess.run(["pdftoppm","-png","-singlefile","-r","144",f,out],check=True)
+          PY
+      - name: Commit rendered web images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/final
+          git diff --cached --quiet && exit 0
+          git commit -m "Render final website artwork from uploaded PDFs"
+          git push
