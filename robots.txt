@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sevenluckygods.github.io/SevenLuckyGods-hp/sitemap.xml
