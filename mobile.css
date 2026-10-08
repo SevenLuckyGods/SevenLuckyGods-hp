@@ -201,3 +201,5 @@ linear-gradient(150deg,#061722,#0b2837 62%,#061722)!important}
  .artwork-area{padding-bottom:0!important}
  .faq{padding-top:42px!important}
 }
+
+@media(max-width:768px){.cta-section{padding:48px 16px 52px!important}.cta-section .container{padding:0!important}.cta-section h2{font-size:clamp(24px,6vw,32px)!important;margin-bottom:18px!important}.cta-section .cta-sub{font-size:clamp(13px,3.5vw,16px)!important;margin-bottom:24px!important}.cta-section .cta-phone{font-size:clamp(19px,5.35vw,31px)!important;padding:15px 12px!important;gap:8px!important;width:100%!important;max-width:430px!important}.cta-section .cta-phone svg{width:22px!important;height:22px!important}}
