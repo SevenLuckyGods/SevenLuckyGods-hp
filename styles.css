@@ -1020,3 +1020,8 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 
 /* SEO semantic heading: visible to crawlers/accessibility, no duplicate visual headline */
 .seo-heading{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+/* High contrast footer brand and traditional three-seven emblem */
+.footer .logo-text .logo-sub{color:#f7f0e3!important;opacity:1!important}
+.footer .logo-text .logo-main{color:#f5ddb0!important;-webkit-text-fill-color:#f5ddb0!important;opacity:1!important;text-shadow:none!important}
+.logo-mark .logo-fuku{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif!important;font-weight:700!important;line-height:1!important;letter-spacing:0!important}
