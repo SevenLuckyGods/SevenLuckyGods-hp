@@ -1025,3 +1025,11 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 .footer .logo-text .logo-sub{color:#f7f0e3!important;opacity:1!important}
 .footer .logo-text .logo-main{color:#f5ddb0!important;-webkit-text-fill-color:#f5ddb0!important;opacity:1!important;text-shadow:none!important}
 .logo-mark .logo-fuku{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif!important;font-weight:700!important;line-height:1!important;letter-spacing:0!important}
+
+/* Consultation CTA: refined gold pill, responsive and overflow-safe */
+.cta-section{background:linear-gradient(125deg,#7b1822,#4d1018)!important;padding:64px 20px!important;text-align:center!important;overflow:hidden!important}
+.cta-section .container{width:100%!important;max-width:860px!important;margin:0 auto!important;box-sizing:border-box!important}
+.cta-section h2{font-family:"Noto Serif JP","Yu Mincho",serif!important;color:#fffaf0!important;font-size:clamp(24px,4.5vw,39px)!important;line-height:1.45!important;overflow-wrap:anywhere!important;margin:0 auto 20px!important}
+.cta-section .cta-sub{color:#f7e8dc!important;opacity:1!important;font-size:clamp(13px,2.7vw,18px)!important;line-height:1.65!important;margin:0 0 26px!important}
+.cta-section .cta-phone{display:inline-flex!important;justify-content:center!important;align-items:center!important;gap:clamp(7px,2vw,16px)!important;box-sizing:border-box!important;max-width:100%!important;width:max-content!important;min-width:0!important;padding:15px clamp(13px,3vw,30px)!important;border:2px solid #d9ae5b!important;border-radius:999px!important;background:linear-gradient(135deg,#a42029,#67121c)!important;color:#ffe5a0!important;font-family:Georgia,"Noto Sans JP",sans-serif!important;font-weight:700!important;font-size:clamp(20px,5.6vw,43px)!important;line-height:1.15!important;letter-spacing:0!important;white-space:nowrap!important;text-decoration:none!important;font-variant-numeric:tabular-nums!important;box-shadow:0 10px 26px rgba(0,0,0,.2)!important}
+.cta-section .cta-phone svg{width:clamp(20px,5vw,36px)!important;height:clamp(20px,5vw,36px)!important;flex:0 0 auto!important}
