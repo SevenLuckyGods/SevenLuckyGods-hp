@@ -1037,3 +1037,17 @@ body{background:var(--u-paper)!important;color:var(--u-ink)!important}
 /* Phone digits remain exact and legible on all viewport sizes */
 .cta-phone-digits,.phone-number,.header-phone strong{font-family:Arial,"Helvetica Neue",sans-serif!important;font-variant-numeric:lining-nums tabular-nums!important;font-feature-settings:"lnum" 1,"tnum" 1!important;letter-spacing:0!important;-webkit-font-smoothing:antialiased!important;font-synthesis:none!important}
 .cta-phone-digits{display:inline-block!important;white-space:nowrap!important;direction:ltr!important;unicode-bidi:isolate!important}
+
+/* Search-friendly service details: real selectable text, responsive layout */
+.search-service-info{background:#faf6ed;color:#28231d;padding:64px 22px 68px;border-top:1px solid #d6bd8c;border-bottom:1px solid #decba6}
+.search-service-info .container{max-width:1110px;margin:0 auto}
+.search-service-eyebrow{font-family:Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:.25em;color:#a47737;text-align:center;margin:0 0 12px}
+.search-service-info h2{font-family:"Noto Serif JP",serif;font-size:clamp(24px,3vw,36px);line-height:1.5;text-align:center;color:#4e2026;margin:0 0 18px}
+.search-service-lead{max-width:870px;margin:0 auto 38px;font-size:15px;line-height:2;color:#51473f;text-align:center}
+.search-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.search-service-grid>div{background:#fffdf8;border:1px solid #e2d1ac;border-radius:12px;padding:25px 23px;box-shadow:0 8px 20px rgba(66,38,15,.045)}
+.search-service-grid h3{font-family:"Noto Serif JP",serif;color:#742b32;font-size:18px;line-height:1.6;margin:0 0 12px}
+.search-service-grid p{font-size:14px;line-height:1.95;color:#51473f;margin:0}
+.search-service-more{text-align:center;margin:30px 0 0}
+.search-service-more a{display:inline-block;color:#6e2529;font-weight:700;text-decoration:none;border-bottom:1px solid #b7914d;padding-bottom:5px}
+@media(max-width:768px){.search-service-info{padding:42px 20px 48px}.search-service-info h2{font-size:23px;text-align:left}.search-service-eyebrow{text-align:left}.search-service-lead{text-align:left;font-size:14px;margin-bottom:22px}.search-service-grid{grid-template-columns:1fr;gap:12px}.search-service-grid>div{padding:20px 18px}.search-service-grid h3{font-size:17px}.search-service-grid p{font-size:14px}.search-service-more{margin-top:25px}}
