@@ -101,30 +101,30 @@
 
   <section class="artwork-section" id="reasons" aria-label="七福人が選ばれる理由">
     <picture>
-      <source media="(max-width: 768px)" srcset="assets/final/02-mobile.jpg">
-      <img src="assets/final/02-pc.jpg" alt="七福人が選ばれる理由" loading="lazy">
+      <source media="(max-width: 768px)" srcset="assets/final/02-mobile.jpg?v=20261028-android34">
+      <img src="assets/final/02-pc.jpg?v=20261028-android34" alt="七福人が選ばれる理由" loading="eager" decoding="async">
     </picture>
   </section>
 
   <section class="artwork-section" id="flow" aria-label="出張買取の流れ">
     <picture>
-      <source media="(max-width: 768px)" srcset="assets/final/03-mobile.jpg">
-      <img src="assets/final/03-pc.jpg" alt="出張買取の流れ" loading="lazy">
+      <source media="(max-width: 768px)" srcset="assets/final/03-mobile.jpg?v=20261028-android34">
+      <img src="assets/final/03-pc.jpg?v=20261028-android34" alt="出張買取の流れ" loading="eager" decoding="async">
     </picture>
   </section>
 
   <section class="artwork-section" id="items" aria-label="主な買取品目">
     <picture>
-      <source media="(max-width: 768px)" srcset="assets/final/04-mobile.jpg">
-      <img src="assets/final/04-pc.jpg" alt="主な買取品目" loading="lazy">
+      <source media="(max-width: 768px)" srcset="assets/final/04-mobile.jpg?v=20261028-android34">
+      <img src="assets/final/04-pc.jpg?v=20261028-android34" alt="主な買取品目" loading="eager" decoding="async">
     </picture>
     <div class="artwork-action"><a href="items.html">買取品目をもっと見る</a></div>
   </section>
 
   <section class="artwork-section artwork-area" id="area" aria-label="対応エリア">
     <picture>
-      <source media="(max-width: 768px)" srcset="assets/final/05-mobile.jpg">
-      <img src="assets/final/05-pc.jpg" alt="対応エリア" loading="lazy">
+      <source media="(max-width: 768px)" srcset="assets/final/05-mobile.jpg?v=20261028-android34">
+      <img src="assets/final/05-pc.jpg?v=20261028-android34" alt="対応エリア" loading="eager" decoding="async">
     </picture>
   </section>
   <section class="search-service-info" aria-labelledby="service-info-heading">
@@ -276,6 +276,27 @@
 
   <a href="#top" class="page-top" id="pageTop" aria-label="ページトップへ">↑</a>
 
+  <script>
+    // Android/Chrome: recover from failed responsive artwork requests.
+    // Never change the site's URL (printed QR codes stay valid).
+    (function () {
+      document.querySelectorAll('.artwork-section picture').forEach(function (picture) {
+        var img = picture.querySelector('img');
+        if (!img) return;
+        var originalDesktop = img.getAttribute('src');
+        var source = picture.querySelector('source');
+        img.addEventListener('error', function () {
+          if (img.dataset.artworkFallback === 'done') return;
+          img.dataset.artworkFallback = 'done';
+          if (source) source.remove();
+          img.src = originalDesktop;
+        });
+        if (img.complete && img.naturalWidth === 0) {
+          img.dispatchEvent(new Event('error'));
+        }
+      });
+    }());
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
